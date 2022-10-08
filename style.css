@@ -3,11 +3,12 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-image: url(assets/background.jpg);
+    background: url(assets/background.jpg);
+    background-size: 100%;
     min-height: 100vh;
 }
 
-div {
+.calculator-panel {
     width: 500px;
     position: absolute;
     top: 50%;
@@ -73,4 +74,10 @@ h2 {
 #info {
     font-size: 12px;
     font-family: inherit;
+}
+
+#contact-ingfo {
+    background-color: white;
+    margin: 0;
+    height: 50px;
 }
