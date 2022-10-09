@@ -8,6 +8,12 @@ body {
     min-height: 100vh;
 }
 
+.copyright {
+    color: white;
+    background-color: coral;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
 .calculator-panel {
     width: 500px;
     position: absolute;
@@ -76,8 +82,3 @@ h2 {
     font-family: inherit;
 }
 
-#contact-ingfo {
-    background-color: white;
-    margin: 0;
-    height: 50px;
-}
